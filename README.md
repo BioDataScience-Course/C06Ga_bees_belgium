@@ -28,7 +28,7 @@ Vous avez à votre disposition différentes données
 
 Vous avez un script qui vous présente le pré-traitement des données et un script qui vous propose un exemple de carte.
 
-![](images/mega_map.png)
+![Dénombrement de la présence de la famile des Megachilidae par communes en 2016](images/mega_map.png)
 
 ## Astuces
 
