@@ -1,4 +1,4 @@
-# Réalisation d'une cartes de la distribution des abeilles sauvages en Belgique
+# Réalisation de cartes de la distribution des abeilles sauvages en Belgique
 
 ## Avant-propos
 
@@ -10,7 +10,7 @@ Cette assignation vous permettra de nous démontrer que vous avez acquis les com
 
 - traiter des données spatiales dans R
 
-- Proposer differentes cartes dans R
+- Proposer différentes cartes dans R
 
 ## Consignes 
 
@@ -28,7 +28,7 @@ Vous avez à votre disposition différentes données
 
 Vous avez un script qui vous présente le pré-traitement des données et un script qui vous propose un exemple de carte.
 
-![Dénombrement de la présence de la famile des Megachilidae par communes en 2016](images/mega_map.png)
+![Dénombrement de la présence de la famile des Megachilidae par commune en 2016](images/mega_map.png)
 
 ## Astuces
 
