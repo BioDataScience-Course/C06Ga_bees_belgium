@@ -14,9 +14,9 @@ Cette assignation vous permettra de nous démontrer que vous avez acquis les com
 
 ## Consignes 
 
-Complétez le carnet de notes bees_notes.Rmd afin de proposer entre 2 et 5 cartes. Détaillez votre réflexion pour obtenir vos cartes.
+Complétez le carnet de notes bees_notes.Rmd afin de proposer entre 2 et 5 cartes. Détaillez vos réflexions pour obtenir chaque carte. Votre objectif est donc de proposer une carte original sur la distribution des abeilles sauvages en Belgique.
 
-Vous pouvez réaliser votre carte avec {chart}, {ggplot2}, {mapview}, {leaflet} ou encore {tmap}. Il serait donc intéressant de proposer différentes cartes réalisées avec les différents packages 
+Vous pouvez réaliser vos cartes avec {chart}, {ggplot2}, {mapview}, {leaflet} ou encore {tmap}. Il est donc intéressant de proposer différentes cartes réalisées avec les différents packages.
 
 Vous avez à votre disposition différentes données
 
@@ -26,7 +26,7 @@ Vous avez à votre disposition différentes données
 
 - Vous avez le droit d'ajouter des données supplémentaires mais votre projet doit rester reproductible et comprendre l'ensemble des fichiers. Faites donc attention à la taille des fichiers.
 
-Vous avez un script qui vous présente le pré-traitement des données et un script qui vous propose un exemple de carte.
+Vous avez un script qui vous présente le pré-traitement des données et un script qui vous propose un exemple de carte. N'hésitez pas à vous en inspirer.
 
 ![Dénombrement de la présence de la famile des Megachilidae par commune en 2016](images/mega_map.png)
 
@@ -34,4 +34,4 @@ Vous avez un script qui vous présente le pré-traitement des données et un scr
 
 Comme vous pouvez le voir dans le script R, les fichiers de bases se trouve dans un dossier `data/raw`. Les fichiers brutes étant trop volumineux et disponible sur le net sont volontairement exclus du gestionnaire de version.
 
-La réalisation de cartes est quelques choses de chouette à réaliser. On cherche des fonds de carte au format .Geotiff, encore des shapefiles de ESRI ou encore directement au sein d'un package R et puis on fait une carte. C'est assez simple dans R et ne requiert pas de disposer de programme dédié et complexe de cartographie. Cependant, la taille des fichiers peu souvent être un problème. Nous vous conseillons d'employer `aggregate()` afin de réduire la résolution d'un raster.Il est possible d'employer `sf::st_simplify()` pour réduire la résolution d'un objet sf.
+La réalisation de cartes est quelques choses de chouette à réaliser. On cherche des fonds de carte au format .Geotiff, des shapefiles de ESRI ou encore directement au sein d'un package R et puis on fait une carte. C'est assez simple dans R et il ne faut pas diposer d'un programme dédié et complexe de cartographie. Cependant, la taille des fichiers peu souvent être un problème. Nous vous conseillons d'employer `aggregate()` afin de réduire la résolution d'un raster.Il est possible d'employer `sf::st_simplify()` pour réduire la résolution d'un objet sf.
