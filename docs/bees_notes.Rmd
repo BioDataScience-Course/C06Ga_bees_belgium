@@ -1,13 +1,13 @@
 ---
-title: "Carnet de notes"
+title: "Cartographie des abeilles sauvages en Belgique en 2016"
 author: "___"
-date: "12/1/2020"
+date: "___"
 output: html_document
 ---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
-
+# ... importation des packages nécessaires ici
 ```
 
-
+<!-- Réalisez 2 à 5 cartes ici. Commentez-les et justifiez vos choix -->
